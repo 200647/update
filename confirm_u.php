@@ -1,10 +1,11 @@
 <?php
   session_start();
-
+  $edit = $_POST['edit'];
   $name = $_POST['name'];
   $email = $_POST['email'];
   $gender = $_POST['gender'];
   
+  $_SESSION['edit'] = $_POST['edit'];
   $_SESSION['name'] = $_POST['name'];
   $_SESSION['email'] = $_POST['email'];
   $_SESSION['gender'] = $_POST['gender'];
