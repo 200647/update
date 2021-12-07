@@ -70,27 +70,21 @@
                     <?php
                           echo "<label class='radio-inline'>";
                           echo "    <input type='radio' name='gender' value='1' required";
-                          if( $row[gender] === 1 ) {
-　　　　　　　　　　　
-                             echo " checked>男性";
+                          if( $row[gender] === 1 ) {echo " checked>男性";
                           } else {
                           	 echo ">男性";
                           }
                           echo "</label>";
                           echo "<label class='radio-inline'>";
                           echo "    <input type='radio' name='gender' value='2' required";
-                          if( $row[gender] === 2 ) {
-　　　　　　　
-                             echo " checked>女性";
+                          if( $row[gender] === 2 ) {echo " checked>女性";
                           } else {
                           	 echo ">女性";
                           }
                           echo "</label>";
                           echo "<label class='radio-inline'>";
                           echo "    <input type='radio' name='gender' value='9' required";
-                          if( $row[gender] === 9 ) {
-　　　　　　　　　　　　　　
-                             echo " checked>その他";
+                          if( $row[gender] === 9 ) {echo " checked>その他";
                           } else {
                           	 echo ">その他";
                           }
